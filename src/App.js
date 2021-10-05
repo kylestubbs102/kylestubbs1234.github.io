@@ -10,7 +10,7 @@ import { Projects } from './components/Pages/Projects';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router forceRefresh={true}>
         <Navbar />
         <div className="pages">
           <Switch>
